@@ -2,7 +2,7 @@ Phase 1 : Deliverables
 
 ## Finalize a project idea including a dataset
 -  Car Insurance Claim Prediction
-
+-  Kaggle link:https://www.kaggle.com/datasets/ifteshanajnin/carinsuranceclaimprediction-classification
 ## Create an ER diagram of your database (does not apply to us)
 ## Create a mockup of your machine learning models e.g. what will be the inputs and what will be the outputs
 ## Create an outline/mockup of what will your final dashboard present?
