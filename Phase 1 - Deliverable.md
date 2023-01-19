@@ -8,4 +8,5 @@ Phase 1 : Deliverables
 ## Create a mockup of your machine learning models e.g. what will be the inputs and what will be the outputs
 ## Create an outline/mockup of what will your final dashboard present?
 ## Perform Data Exploration on your dataset in Python
+- merge two datasets to do the exploration 
 ## Continue using Github to merge all you produce into branches and main repo
