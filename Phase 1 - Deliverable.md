@@ -10,7 +10,7 @@ Phase 1 : Deliverables
 - File: data_exploration
 - How many rows and columns are there in the dataset
 - View basic statistics of the data
-- Are there any null values
+- Are there any null values?
 - What are the data types for each column
 - Plot histograms for all numerical values
 - Visualize the relationship between all numerical columns (using scatter plots)
