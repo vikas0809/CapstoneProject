@@ -8,12 +8,15 @@ Phase 1 : Deliverables
 ## Create an outline/mockup of what will your final dashboard present?
 ## Perform Data Exploration on your dataset in Python
 - File: data_exploration
-- How many rows and columns are there in the dataset
+For data exploration, we performed the following steps
+- Load the cvs file into a data frame
+- Get the number of rows and columns in the dataset
+   - there are 58592 rows and 44 columns
+- Viewing the first 5 rows of the data
 - View basic statistics of the data
-- Are there any null values?
-- What are the data types for each column
+- Get information about the columns to see the data type for each column and if there are any null values
 - Plot histograms for all numerical values
 - Visualize the relationship between all numerical columns (using scatter plots)
-- Calculate the correlation 
+- Get the correlation matrix to see if there is any correlation between variables
 - Plot boxplots for all numeric columns
 
