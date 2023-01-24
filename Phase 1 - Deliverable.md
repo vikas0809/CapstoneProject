@@ -7,7 +7,7 @@ Phase 1 : Deliverables
 ## Create a mockup of your machine learning models e.g. what will be the inputs and what will be the outputs
 ## Create an outline/mockup of what will your final dashboard present?
 ## Perform Data Exploration on your dataset in Python
-- File: data_exploration </br>
+- View File: data_exploration.ipynb </br>
 For data exploration, we performed the following steps:
 - Load the cvs file into a data frame
 - Get the number of rows and columns in the dataset
