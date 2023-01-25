@@ -47,8 +47,8 @@ The initial step is to use the existing data to train the models, which will fur
 
 Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsuranceclaimprediction-classification. 
 
-         The <b>training dataset</b> has all the independent and target features. It contains all the information of the customers such as policy tenure, age of the          car owner,age of the car, the population density of the city, make and model of the car and the target variable which will help to predict whether a                policyholder will get the claim or not
-         The <b>test dataset</b> contains all the independent features except the target variable. 
+         The training dataset has all the independent and target features. It contains all the information of the customers such as policy tenure, age of the          car owner,age of the car, the population density of the city, make and model of the car and the target variable which will help to predict whether a                policyholder will get the claim or not
+         The test dataset contains all the independent features except the target variable. 
 
 ### Proposed model:
 ### Data Description:
