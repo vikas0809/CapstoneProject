@@ -21,7 +21,7 @@ Supervised learning deals with labeled data, the labels provide the correct answ
 
        Regression: is used to predict continuous variables. Example: Predicting the sale price of a house.
        
-       Classification:  is used to predict discrete outcomes. The classification model's algorithms would attempt to learn patterns from the data, and if the model        is successful, gain the ability to make accurate predictions. Example: Predicting if a transaction is fraud or not.
+       Classification:  is used to predict discrete outcomes. The classification model's algorithms would attempt to learn patterns from the data, and if the model is successful, gain the ability to make accurate predictions. Example: Predicting if a transaction is fraud or not.
        
 In both classification and regression problems, a dataset is divided into features and target. Features are the variables used to make a prediction. Target is the predicted outcome.
 
