@@ -47,7 +47,7 @@ The initial step is to use the existing data to train the models, which will fur
 
 Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsuranceclaimprediction-classification. 
 
-         The training dataset has all the independent and target features. It contains all the information of the customers such as policy tenure, age of the          car owner,age of the car, the population density of the city, make and model of the car and the target variable which will help to predict whether a                policyholder will get the claim or not
+         The training dataset has all the independent and target features. It contains all the information of the customers such as policy tenure, age of the car owner,age of the car, the population density of the city, make and model of the car and the target variable which will help to predict whether a policyholder will get the claim or not
          The test dataset contains all the independent features except the target variable. 
 
 ### Proposed model:
@@ -71,7 +71,7 @@ Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsurancec
                We used StandardScalar to scale the data, fir the instance scaler with the training data and further scaling the features with the transform () method.
      5. Machine Learning Techniques used and accuracy results:
               LightGBM Algorithm: LightGBM is a Supervised Machine Learning Algorithm. It had the best presentation with the accuracy of 0.936
-              We tried other different models as well BalancedRandomForest Classifier with an accuracy rate of 0.603, EasyEnsembleClassifier, RandomOverSampler,    LogisticRegression, SMOTE, SMOTEENN but these models may not be the best ones to predict the claim applications because of low accuracy rates along                 with the low  precision and recall scores.
+              We tried other different models as well BalancedRandomForest Classifier with an accuracy rate of 0.603, EasyEnsembleClassifier, RandomOverSampler,    LogisticRegression, SMOTE, SMOTEENN but these models may not be the best ones to predict the claim applications because of low accuracy rates along with the low  precision and recall scores.
 
 
 ## Create an outline/mockup of what will your final dashboard present?
