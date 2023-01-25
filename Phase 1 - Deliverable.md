@@ -57,25 +57,15 @@ Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsurancec
      1. Importing the required libraries
      2. Data Pre-processing: 
                In order to understand the basic description of data, figure out the summary, data types of the data.
-	       
 	       Disregarding the irrelevant and handling the missing data.
-	       
 	       Variables encoding: converting categorical variables into numerical values so that it could be easily fitted to a machine learning model. We will use                LabelEncoder to encode target values
-	       
      3. Splitting Data
                A dataset is split into training and testing sets in supervised learning. The model uses the training dataset to learn from it. It then uses the                    testing dataset to assess its performance. If you use your entire dataset to train the model, you won't know how well the model will perform when it                encounters unseen data. That is why it's important to set aside a portion of your dataset to evaluate your model.
      4. Scale the Testing and Training dataset
                We used StandardScalar to scale the data, fir the instance scaler with the training data and further scaling the features with the transform ()                      method.
-	       
-     5. Machine Learning Techniques used:
+     5. Machine Learning Techniques used and accuracy results:
               LightGBM Algorithm: LightGBM is a Supervised Machine Learning Algorithm. It had the best presentation with the accuracy of 0.936
-              We tried other different models as well BalancedRandomForest Classifier with an accuracy rate of 0.603, EasyEnsembleClassifier, RandomOverSampler,            LogisticRegression, SMOTE, SMOTEENN but these models may not be the best ones to predict the claim applications because of low accuracy rates along with the        low  precision and recall scores.
-
-     6. Results
-
-
-
-
+              We tried other different models as well BalancedRandomForest Classifier with an accuracy rate of 0.603, EasyEnsembleClassifier, RandomOverSampler,                   LogisticRegression, SMOTE, SMOTEENN but these models may not be the best ones to predict the claim applications because of low accuracy rates along                 with the low  precision and recall scores.
 
 
 ## Create an outline/mockup of what will your final dashboard present?
