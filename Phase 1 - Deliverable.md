@@ -51,7 +51,13 @@ Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsurancec
          The test dataset contains all the independent features except the target variable. 
 
 ### Proposed model:
+
+![Test Image](/Resources/ProposedModel.png)
+
 ### Data Description:
+
+![Test Image](/Resources/data1.png)
+![Test Image](/Resources/data2.png)
 
 ### The Approach to work on the dataset:
      1. Importing the required libraries
