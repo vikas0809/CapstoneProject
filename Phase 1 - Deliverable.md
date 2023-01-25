@@ -11,16 +11,17 @@ Phase 1 : Deliverables
 
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions. Machine learning can be divided into three learning categories: supervised, unsupervised, and deep.
 Basic pattern:
-•	A machine learning model is presented with a dataset.
-•	The model algorithms analyze the data and attempt to identify patterns.
-•	Based on these patterns, the model makes predictions on new data.
+
+       • A machine learning model is presented with a dataset.
+       • The model algorithms analyze the data and attempt to identify patterns.
+       • Based on these patterns, the model makes predictions on new data.
 
 #### Supervised learning: 
 Supervised learning deals with labeled data, the labels provide the correct answers. An example of supervised learning might be to predict, based on data from previous patients, whether a new patient has diabetes. Supervised learning can be broadly divided into regression and classification.
 
        Regression: is used to predict continuous variables. Example: Predicting the sale price of a house.
        
-       Classification:  is used to predict discrete outcomes. The classification model's algorithms would attempt to learn patterns from the data, and if the model is successful, gain the ability to make accurate predictions. Example: Predicting if a transaction is fraud or not.
+       Classification:  is used to predict discrete outcomes. The classification model's algorithms would attempt to learn patterns from the data, and if the model        is successful, gain the ability to make accurate predictions. Example: Predicting if a transaction is fraud or not.
        
 In both classification and regression problems, a dataset is divided into features and target. Features are the variables used to make a prediction. Target is the predicted outcome.
 
@@ -54,16 +55,16 @@ Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsurancec
 ### The Approach to work on the dataset:
      1. Importing the required libraries
      2. Data Pre-processing: 
-          	In order to understand the basic description of data, figure out the summary, data types of the data.
+               In order to understand the basic description of data, figure out the summary, data types of the data.
 	       Disregarding the irrelevant and handling the missing data.
-	       Variables encoding: converting categorical variables into numerical values so that it could be easily fitted to a machine learning model. We will use               LabelEncoder to encode target values
+	       Variables encoding: converting categorical variables into numerical values so that it could be easily fitted to a machine learning model. We will use                LabelEncoder to encode target values
      3. Splitting Data
                A dataset is split into training and testing sets in supervised learning. The model uses the training dataset to learn from it. It then uses the                    testing dataset to assess its performance. If you use your entire dataset to train the model, you won't know how well the model will perform when it                encounters unseen data. That is why it's important to set aside a portion of your dataset to evaluate your model.
      4. Scale the Testing and Training dataset
-             We used StandardScalar to scale the data, fir the instance scaler with the training data and further scaling the features with the transform () method.
+               We used StandardScalar to scale the data, fir the instance scaler with the training data and further scaling the features with the transform ()                      method.
      5. Machine Learning Techniques used:
-         LightGBM Algorithm: LightGBM is a Supervised Machine Learning Algorithm. It had the best presentation with the accuracy of 0.936
-         We tried other different models as well BalancedRandomForest Classifier with an accuracy rate of 0.603, EasyEnsembleClassifier, RandomOverSampler,            LogisticRegression, SMOTE, SMOTEENN but these models may not be the best ones to predict the claim applications because of low accuracy rates along with the low    precision and recall scores.
+              LightGBM Algorithm: LightGBM is a Supervised Machine Learning Algorithm. It had the best presentation with the accuracy of 0.936
+              We tried other different models as well BalancedRandomForest Classifier with an accuracy rate of 0.603, EasyEnsembleClassifier, RandomOverSampler,            LogisticRegression, SMOTE, SMOTEENN but these models may not be the best ones to predict the claim applications because of low accuracy rates along with the        low  precision and recall scores.
 
      6. Results
 
