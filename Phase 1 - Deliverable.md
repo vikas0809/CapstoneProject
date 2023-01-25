@@ -29,11 +29,12 @@ Machine learning algorithms work with datasets without labeled outcomes. In unsu
 
 ### Overview:
 In this Analysis, we will be using be using supervised learning and follows basic pattern:
-    1.	Split the data into input (X) and output (y).
-    2.	Create an instance of the model.
-    3.	Train the model with the dataset with model.fit(X,y)
-    4.	Create predictions with model.predict()
-    5.	Validate the model with accuracy_score().
+
+      1. Split the data into input (X) and output (y).
+      2. Create an instance of the model.
+      3. Train the model with the dataset with model.fit(X,y)
+      4. Create predictions with model.predict()
+      5. Validate the model with accuracy_score().
     
 ### How does machine learning work on car insurance?
 As there is continuous increase in the necessity of the automobile, the car insurance also become more and more prosperous for auto insurance companies. In the past, car insurance companies have relied on historical data to set premiums. However, Machine learning has enabled insurers to better predict risk and price insurance policies more accurately. Machine learning helps in extracting critical knowledge and information from massive customer data to improve goods and services.
