@@ -57,8 +57,8 @@ Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsurancec
      1. Importing the required libraries
      2. Data Pre-processing: 
                In order to understand the basic description of data, figure out the summary, data types of the data.
-	       Disregarding the irrelevant and handling the missing data.
-	       Variables encoding: converting categorical variables into numerical values so that it could be easily fitted to a machine learning model. We will use                LabelEncoder to encode target values
+	           Disregarding the irrelevant and handling the missing data.
+	           Variables encoding: converting categorical variables into numerical values so that it could be easily fitted to a machine learning model. We will                    use LabelEncoder to encode target values
      3. Splitting Data
                A dataset is split into training and testing sets in supervised learning. The model uses the training dataset to learn from it. It then uses the                    testing dataset to assess its performance. If you use your entire dataset to train the model, you won't know how well the model will perform when it                encounters unseen data. That is why it's important to set aside a portion of your dataset to evaluate your model.
      4. Scale the Testing and Training dataset
