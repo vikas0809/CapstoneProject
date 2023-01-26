@@ -78,7 +78,7 @@ Output: Is_Claim (0/1)
      4. Scale the Testing and Training dataset
                We used StandardScalar to scale the data, for the instance scaler with the training data and further scaling the features with the transform () method.
      5. Machine Learning Techniques used and accuracy results:
-              LightGBM Algorithm: LightGBM is a Supervised Machine Learning Algorithm. It had the best presentation with the accuracy of 0.936
+              LightGBM Algorithm: LightGBM is a Supervised Machine Learning Algorithm.
               We will try other different models such as BalancedRandomForest Classifier , EasyEnsembleClassifier, LogisticRegression inorder to achieve the best accuracy scores and be the best ones to predict the claim applications.
 	      
 ## Create an outline/mockup of what will your final dashboard present?
