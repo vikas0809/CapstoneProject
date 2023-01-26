@@ -61,6 +61,10 @@ Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsurancec
 ![Test Image](/Resources/data1.png)
 ![Test Image](/Resources/data2.png)
 
+<br/>
+Inputs: we will test all columns to find out which features are more important and which ones gives us a higher accuracy at predicting the outcome.
+Output: Is_Claim (0/1) 
+
 ### The Approach to work on the dataset:
      1. Importing the required libraries
      2. Data Pre-processing: 
