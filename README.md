@@ -81,20 +81,21 @@ Output: Is_Claim (0/1)
               We tried other different models as well BalancedRandomForest Classifier with an accuracy rate of 0.603, EasyEnsembleClassifier, RandomOverSampler,    LogisticRegression, SMOTE, SMOTEENN but these models may not be the best ones to predict the claim applications because of low accuracy rates along with the low  precision and recall scores.
 
 ## Create an outline/mockup of what will your final dashboard present?
+
 Visulization software - Tableau Public
 link to Tableau - https://public.tableau.com/app/profile/akanksha.lamba/viz/Insurancedatastatistics/DASHBOAR
 
 Dashboard will include the following visualizations:
 
-Using highlight table to understand the KPI's of the data
-Total claims count
-Claims based on Transmission type of the vehicle
-Claims based on Model of vehicle
-Utilizing Treemap to visualize claims based on the area cluster
-To visualize claims based on age of the policyholder stacked bar chart will be utilized
-Visualizing claims based on various vehicle features using highlight table
-Ncap rating of the vehicle based on the vehicle segment visualized using horizontal bar chart
-Pie-charts visualizing claims based on the cylinder type
+- Using highlight table to understand the KPI's of the data
+	- Total claims count
+	- Claims based on Transmission type of the vehicle
+	- Claims based on Model of vehicle
+- Utilizing Treemap to visualize claims based on the area cluster
+- To visualize claims based on age of the policyholder stacked bar chart will be utilized
+- Visualizing claims based on various vehicle classifiers using highlight table
+- Safety rating of the vehicle visualized using horizontal bar chart
+- Pie-charts visualizing claims based on the cylinder type
 
 ## Perform Data Exploration on your dataset in Python
 - View File: data_exploration.ipynb </br>
