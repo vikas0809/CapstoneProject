@@ -77,7 +77,7 @@ Output: Is_Claim (0/1)
                A dataset is split into training and testing sets in supervised learning. The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. If you use your entire dataset to train the model, you won't know how well the model will perform when it encounters unseen data. That is why it's important to set aside a portion of your dataset to evaluate your model.
      4. Scale the Testing and Training dataset
                We used StandardScalar to scale the data, for the instance scaler with the training data and further scaling the features with the transform () method.
-     5. Machine Learning Techniques used and accuracy results:
+     5. Machine Learning Techniques :
               LightGBM Algorithm: LightGBM is a Supervised Machine Learning Algorithm.
               We will try other different models such as BalancedRandomForest Classifier , EasyEnsembleClassifier, LogisticRegression inorder to achieve the best accuracy scores and be the best ones to predict the claim applications.
 	      
