@@ -75,6 +75,20 @@ Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsurancec
 
 
 ## Create an outline/mockup of what will your final dashboard present?
+
+Visulization software - Tableau Public
+
+Dashboard will include the following visualizations:
+- Using highlight table to understand the KPI's of the data
+	- Total claims count
+	- Claims based on Transmission type of the vehicle
+	- Claims based on Model of vehicle
+- Utilizing Treemap to visualize claims based on the area cluster
+- To visualize claims based on age of the policyholder stacked bar chart will be utilized
+- Visualizing claims based on various vehicle features using highlight table
+- Ncap rating of the vehicle based on the vehicle segment visualized using horizontal bar chart
+- Pie-charts visualizing claims based on the cylinder type
+
 ## Perform Data Exploration on your dataset in Python
 - View File: data_exploration.ipynb </br>
 For data exploration, we performed the following steps:
