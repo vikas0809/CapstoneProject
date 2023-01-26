@@ -56,7 +56,7 @@ Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsurancec
 
 ![Test Image](/Resources/ProposedModel.png)
 
-### Data Description:
+### Data Description (Inputs/Output):
 
 ![Test Image](/Resources/data1.png)
 ![Test Image](/Resources/data2.png)
