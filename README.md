@@ -83,6 +83,7 @@ Output: Is_Claim (0/1)
 ## Create an outline/mockup of what will your final dashboard present?
 
 Visulization software - Tableau Public
+
 link to Tableau - https://public.tableau.com/app/profile/akanksha.lamba/viz/Insurancedatastatistics/DASHBOAR
 
 Dashboard will include the following visualizations:
