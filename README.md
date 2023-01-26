@@ -54,6 +54,8 @@ Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsurancec
 
 ### Proposed model:
 
+[LightGBM python notebook](LightGBM.ipynb)
+
 ![Test Image](/Resources/ProposedModel.png)
 
 ### Data Description (Inputs/Output):
