@@ -101,7 +101,7 @@ Dashboard will include the following visualizations:
 - Pie-charts visualizing claims based on the cylinder type
 
 ## Perform Data Exploration on your dataset in Python
-- View File: data_exploration.ipynb </br>
+- View File: [Data Exploration Report](data_exploration.ipynb) </br>
 For data exploration, we performed the following steps:
 - Load the cvs file into a data frame
 - Get the number of rows and columns in the dataset
