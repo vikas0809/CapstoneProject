@@ -57,4 +57,12 @@ There were some steps involved before performing train and test on models which 
 
 
 ## Presentation 
-Link:https://docs.google.com/presentation/d/1zEQEcLH0pdJx044-sZFgpIWhDq1492tVU-b_lRdr-uA/edit?usp=sharing
+Link: https://docs.google.com/presentation/d/1zEQEcLH0pdJx044-sZFgpIWhDq1492tVU-b_lRdr-uA/edit?usp=sharing
+
+- Introduction: overview of the project, problem statement, objective
+- Data collection and preprocessing
+- Data exploration findings
+- Methodology: overview of the machine learning
+- Results and evaluation 
+- Conclusion: Summary of findings, limitions, future work and recommendations
+
