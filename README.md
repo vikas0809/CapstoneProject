@@ -3,7 +3,7 @@
 Phase 2 : Deliverables
 
 ## Main points from data exploaration
-- View Python File: [Data Exploration Report](data_exploration.ipynb) </br>
+View Python File: [Data Exploration Report](data_exploration.ipynb) </br>
 - There are 58592 rows and 44 columns 
 - The target column “Is_Claim” has 54844 zeros (0) and 3748 ones (1) 
 - The data contains no null values
@@ -14,7 +14,7 @@ Phase 2 : Deliverables
 - The columns with the highest correlations are policy_tenure, age_of_car, age_of_policyholder and population_density
 
 
-- Tableau Dashboard:  https://public.tableau.com/app/profile/akanksha.lamba/viz/Insurancedatastatistics/DASHBOAR
+Tableau Dashboard:  https://public.tableau.com/app/profile/akanksha.lamba/viz/Insurancedatastatistics/DASHBOAR
 
 Dashboard includes the following visualizations:
 
