@@ -8,7 +8,7 @@ View Python File: [Data Exploration Report](data_exploration.ipynb) </br>
 - The target column “Is_Claim” has 54844 zeros (0) and 3748 ones (1) 
 - The data contains no null values
 - Data types: 
-** float64(4), int64(12), object(28)
+**float64(4), int64(12), object(28)
 
 - Correlation:
 ** the correlation between the target column “Is_Claim” and the other features is low. 
