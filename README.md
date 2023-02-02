@@ -21,18 +21,29 @@ Tableau Dashboard:  https://public.tableau.com/app/profile/akanksha.lamba/viz/In
 Dashboard includes the following visualizations:
 
 - Summary table: 
-	- Total claims count
+	- Total claims count : 
+		- Yes - 54,844
+		- No -   3,748
 	- Claims based on Transmission type of the vehicle
+		- Manual - 38,181
+		- Automatic - 20,411
 	- Claims based on Model of vehicle
-- Treemap to visualize claims based on the area cluster
+		- Maximum claims submitted for Model M6
+		- M1 model that has the least claims 
+	- Claims based on area cluster visualized using treemap
+		- C8 area cluster has the most claims with 954 claims
 - Claims based on age of the policyholder stacked bar chart will be utilized
+	- Most claims were submitted by the policyholder within age group of 25-30 years
 - Claims based on various vehicle classifiers using highlight table
+	- Most claims were submitted by Petrol operated vehicles with K-Series Dual jet
 - Safety rating of the vehicle visualized using horizontal bar chart
+	- Most policy holders rated there vehicle as 2/5 in safety rating i.e 21,402
 - Pie-charts visualizing claims based on the cylinder type
-
+	- Most claims submitted by 4 cylinder car equivalent 2,443
+	
 ## Machine learning model and results
 
-In the second week of creating data model,we tried different approach and worked on Logistic Regression model,Decision Tree Regressor and TransformedTargetRegressor models and compared their accuracy and precesion scores.
+In the second week of creating data model,we tried different approach and worked on Logistic Regression model,Decesion Tree Regressor and TransformedTargetRegressor models and compared their accuracy and precesion scores.
 There were some steps involved before performing train and test on models which includes:
 - Performed basic data cleaning(drop_columns,check nul values,unique values)
 - Classification of continuous and categorical columns.
@@ -47,7 +58,7 @@ There were some steps involved before performing train and test on models which 
 
 ![lr](Resources/lr_score.png)
 
-### Decision Tree Regressor  
+### Decesion Tree Regressor  
 
 ![dt](Resources/dt_score.png)
 
@@ -55,8 +66,6 @@ There were some steps involved before performing train and test on models which 
 
 ![ttr](Resources/ttr_score.png)
 
-
-Link to python notebook: [Decision Tree Regressor model](Logisic_reg_and_Decision_tree_reg.ipynb)
 
 ## Presentation 
 Link: https://docs.google.com/presentation/d/1zEQEcLH0pdJx044-sZFgpIWhDq1492tVU-b_lRdr-uA/edit?usp=sharing
