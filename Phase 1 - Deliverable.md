@@ -1,4 +1,6 @@
-Phase 1 : Deliverables
+# CapstoneProject : Car Insurance Claim Prediction
+
+Phase 1 : Deliverable
 
 ## Finalize a project idea including a dataset
 -  Car Insurance Claim Prediction
@@ -45,52 +47,60 @@ The initial step is to use the existing data to train the models, which will fur
 
 ### Dataset
 
-Link to the dataset: https://www.kaggle.com/datasets/ifteshanajnin/carinsuranceclaimprediction-classification. 
 
          The training dataset has all the independent and target features. It contains all the information of the customers such as policy tenure, age of the car owner,age of the car, the population density of the city, make and model of the car and the target variable which will help to predict whether a policyholder will get the claim or not
          The test dataset contains all the independent features except the target variable. 
 
 ### Proposed model:
 
+[LightGBM python notebook](LightGBM.ipynb)
+
 ![Test Image](/Resources/ProposedModel.png)
 
-### Data Description:
+### Data Description (Inputs/Output):
 
 ![Test Image](/Resources/data1.png)
 ![Test Image](/Resources/data2.png)
+
+<br/>
+Inputs: We will use and test all columns/variables to find out which features are more important and which ones gives us a higher accuracy at predicting the outcome.
+<br/>
+Output: Is_Claim (0/1) 
 
 ### The Approach to work on the dataset:
      1. Importing the required libraries
      2. Data Pre-processing: 
                In order to understand the basic description of data, figure out the summary, data types of the data.
 	           Disregarding the irrelevant and handling the missing data.
-	           Variables encoding: converting categorical variables into numerical values so that it could be easily fitted to a machine learning model. We will  use LabelEncoder to encode target values
+	           Variables encoding: converting categorical variables into numerical values so that it could be easily fitted to a machine learning model. We will  use LabelEncoder to encode target values. As we checked our data was imbalanced, we used undersampling methods to change the composition of the data.
      3. Splitting Data
                A dataset is split into training and testing sets in supervised learning. The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. If you use your entire dataset to train the model, you won't know how well the model will perform when it encounters unseen data. That is why it's important to set aside a portion of your dataset to evaluate your model.
      4. Scale the Testing and Training dataset
-               We used StandardScalar to scale the data, fir the instance scaler with the training data and further scaling the features with the transform () method.
-     5. Machine Learning Techniques used and accuracy results:
-              LightGBM Algorithm: LightGBM is a Supervised Machine Learning Algorithm. It had the best presentation with the accuracy of 0.936
-              We tried other different models as well BalancedRandomForest Classifier with an accuracy rate of 0.603, EasyEnsembleClassifier, RandomOverSampler,    LogisticRegression, SMOTE, SMOTEENN but these models may not be the best ones to predict the claim applications because of low accuracy rates along with the low  precision and recall scores.
-
-
+               We used StandardScalar to scale the data, for the instance scaler with the training data and further scaling the features with the transform () method.
+     5. Machine Learning Techniques :
+              LightGBM Algorithm: LightGBM is a Supervised Machine Learning Algorithm.
+              We will try other different models such as BalancedRandomForest Classifier , EasyEnsembleClassifier, LogisticRegression inorder to achieve the best accuracy scores and be the best ones to predict the claim applications.
+	      
 ## Create an outline/mockup of what will your final dashboard present?
 
 Visulization software - Tableau Public
 
+link to Tableau - https://public.tableau.com/app/profile/akanksha.lamba/viz/Insurancedatastatistics/DASHBOAR
+
 Dashboard will include the following visualizations:
+
 - Using highlight table to understand the KPI's of the data
 	- Total claims count
 	- Claims based on Transmission type of the vehicle
 	- Claims based on Model of vehicle
 - Utilizing Treemap to visualize claims based on the area cluster
 - To visualize claims based on age of the policyholder stacked bar chart will be utilized
-- Visualizing claims based on various vehicle features using highlight table
-- Ncap rating of the vehicle based on the vehicle segment visualized using horizontal bar chart
+- Visualizing claims based on various vehicle classifiers using highlight table
+- Safety rating of the vehicle visualized using horizontal bar chart
 - Pie-charts visualizing claims based on the cylinder type
 
 ## Perform Data Exploration on your dataset in Python
-- View File: data_exploration.ipynb </br>
+- View File: [Data Exploration Report](data_exploration.ipynb) </br>
 For data exploration, we performed the following steps:
 - Load the cvs file into a data frame
 - Get the number of rows and columns in the dataset
