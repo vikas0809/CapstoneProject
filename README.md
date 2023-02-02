@@ -56,4 +56,5 @@ There were some steps involved before performing train and test on models which 
 ![ttr](Resources/ttr_score.png)
 
 
-
+## Presentation 
+Link:https://docs.google.com/presentation/d/1zEQEcLH0pdJx044-sZFgpIWhDq1492tVU-b_lRdr-uA/edit?usp=sharing
