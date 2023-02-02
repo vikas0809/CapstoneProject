@@ -41,6 +41,12 @@ Dashboard includes the following visualizations:
 - Pie-charts visualizing claims based on the cylinder type
 	- Most claims submitted by 4 cylinder car equivalent 2,443
 	
+![dashboard 1](https://user-images.githubusercontent.com/111251560/216236328-0684ce2c-4716-4f86-a923-a6c2dd147e31.png)
+
+
+![dashboard 2](https://user-images.githubusercontent.com/111251560/216236353-ddc6a833-5438-40d1-8b95-f3560e3e1f40.png)
+
+
 ## Machine learning model and results
 
 In the second week of creating data model,we tried different approach and worked on Logistic Regression model,Decesion Tree Regressor and TransformedTargetRegressor models and compared their accuracy and precesion scores.
