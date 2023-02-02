@@ -32,7 +32,7 @@ Dashboard includes the following visualizations:
 
 ## Machine learning model and results
 
-In the second week of creating data model,we tried different approach and worked on Logistic Regression model,Decesion Tree Regressor and TransformedTargetRegressor models and compared their accuracy and precesion scores.
+In the second week of creating data model,we tried different approach and worked on Logistic Regression model,Decision Tree Regressor and TransformedTargetRegressor models and compared their accuracy and precesion scores.
 There were some steps involved before performing train and test on models which includes:
 - Performed basic data cleaning(drop_columns,check nul values,unique values)
 - Classification of continuous and categorical columns.
@@ -47,7 +47,7 @@ There were some steps involved before performing train and test on models which 
 
 ![lr](Resources/lr_score.png)
 
-### Decesion Tree Regressor  
+### Decision Tree Regressor  
 
 ![dt](Resources/dt_score.png)
 
@@ -55,6 +55,8 @@ There were some steps involved before performing train and test on models which 
 
 ![ttr](Resources/ttr_score.png)
 
+
+Link to python notebook: [Decision Tree Regressor model](Logisic_reg_and_Decision_tree_reg.ipynb)
 
 ## Presentation 
 Link: https://docs.google.com/presentation/d/1zEQEcLH0pdJx044-sZFgpIWhDq1492tVU-b_lRdr-uA/edit?usp=sharing
