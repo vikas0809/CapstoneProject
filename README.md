@@ -45,9 +45,15 @@ There were some steps involved before performing train and test on models which 
 
 ### Logistic Regression model
 
+![lr](Resources/lr_score.png)
+
 ### Decesion Tree Regressor  
 
+![dt](Resources/dt_score.png)
+
 ### TransformedTargetRegressor
+
+![ttr](Resources/ttr_score.png)
 
 
 
