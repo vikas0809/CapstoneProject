@@ -1,6 +1,6 @@
 # CapstoneProject : Car Insurance Claim Prediction
 
-Phase 2 : Deliverables
+Phase 3 : Deliverables
 
 ## Main points from data exploaration
 View Python File: [Data Exploration Report](data_exploration.ipynb) </br>
